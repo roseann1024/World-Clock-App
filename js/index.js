@@ -1,11 +1,11 @@
 function updateTime() {
-  let newYorkElement = document.querySelector("#newyork");
-  let newYorkElementDate = newYorkElement.querySelector(".date");
-  let newYorkElementTime = newYorkElement.querySelector(".time");
-  let newYorkTime = moment().tz("America/New_York");
+  let denverElement = document.querySelector("#denver");
+  let denverElementDate = denverElement.querySelector(".date");
+  let denverElementTime = denverElement.querySelector(".time");
+  let denverTime = moment().tz("America/Denver");
 
-  newYorkElementDate.innerHTML = newYorkTime.format("dddd, MMMM D, YYYY");
-  newYorkElementTime.innerHTML = newYorkTime.format(
+  denverElementDate.innerHTML = denverTime.format("dddd, MMMM D, YYYY");
+  denverElementTime.innerHTML = denverTime.format(
     "h:mm:ss [<small>]A[</small>]"
   );
 
