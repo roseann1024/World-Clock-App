@@ -18,6 +18,7 @@ select {
   border-radius: 8px;
   border: 1px solid #e9a0a7;
   font-size: 18px;
+  background-color: #b8f0f7;
 }
 .container {
   max-width: 600px;
@@ -59,7 +60,7 @@ h2 {
   border: none;
 }
 a {
-  color: white;
+  color: #ef385d;
   font-style: italic;
   transition: all 150ms ease-in-out;
 }
@@ -73,5 +74,5 @@ a:hover {
 footer {
   text-align: center;
   font-size: 12px;
-  color: white;
+  color: #f5a71d;
 }

@@ -19,7 +19,7 @@ function updateTime() {
     "h:mm:ss [<small>]A[</small>]"
   );
 
-  let israelElement = document.querySelector("#israel");
+  let israelElement = document.querySelector("#jerusalem");
   let israelElementDate = israelElement.querySelector(".date");
   let israelElementTime = israelElement.querySelector(".time");
   let israelTime = moment().tz("Israel");
