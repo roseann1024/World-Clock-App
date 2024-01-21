@@ -58,6 +58,19 @@ h2 {
 .city:last-child {
   border: none;
 }
+a {
+  color: #f70776;
+  font-style: italic;
+  transition: all 150ms ease-in-out;
+}
+
+a:hover {
+  color: #4d4780;
+  font-style: normal;
+  cursor: pointer;
+  text-decoration: none;
+}
 footer {
   text-align: center;
+  font-size: 12px;
 }
