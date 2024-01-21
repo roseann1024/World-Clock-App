@@ -1,11 +1,10 @@
 body {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/111/456/original/pexels-caio-3322008.jpg?1705795435");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/111/543/original/81917-world-globe-graphic-design-map-png-image-high-quality.png?1705858637");
   background-position: center;
   background-size: 120%;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 h1 {
@@ -23,8 +22,8 @@ select {
 .container {
   max-width: 600px;
   margin: 60px auto;
-  border: 2px solid #e9a0a7;
-  background: rgba(255, 255, 255, 0.5);
+  border: 5px solid #e9a0a7;
+  background: rgba(255, 255, 255, 0.9);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   padding: 30px;
   border-radius: 15px;

@@ -19,23 +19,23 @@ function updateTime() {
     "h:mm:ss [<small>]A[</small>]"
   );
 
-  let londonElement = document.querySelector("#london");
-  let londonElementDate = londonElement.querySelector(".date");
-  let londonElementTime = londonElement.querySelector(".time");
-  let londonTime = moment().tz("Europe/London");
+  let israelElement = document.querySelector("#israel");
+  let israelElementDate = israelElement.querySelector(".date");
+  let israelElementTime = israelElement.querySelector(".time");
+  let israelTime = moment().tz("Israel");
 
-  londonElementDate.innerHTML = londonTime.format("dddd, MMMM D, YYYY");
-  londonElementTime.innerHTML = londonTime.format(
+  israelElementDate.innerHTML = israelTime.format("dddd, MMMM D, YYYY");
+  israelElementTime.innerHTML = israelTime.format(
     "h:mm:ss [<small>]A[</small>]"
   );
 
-  let adelaideElement = document.querySelector("#adelaide");
-  let adelaideElementDate = adelaideElement.querySelector(".date");
-  let adelaideElementTime = adelaideElement.querySelector(".time");
-  let adelaideTime = moment().tz("Australia/Adelaide");
+  let saipanElement = document.querySelector("#saipan");
+  let saipanElementDate = saipanElement.querySelector(".date");
+  let saipanElementTime = saipanElement.querySelector(".time");
+  let saipanTime = moment().tz("Pacific/Saipan");
 
-  adelaideElementDate.innerHTML = adelaideTime.format("dddd, MMMM D, YYYY");
-  adelaideElementTime.innerHTML = adelaideTime.format(
+  saipanElementDate.innerHTML = saipanTime.format("dddd, MMMM D, YYYY");
+  saipanElementTime.innerHTML = saipanTime.format(
     "h:mm:ss [<small>]A[</small>]"
   );
 }
