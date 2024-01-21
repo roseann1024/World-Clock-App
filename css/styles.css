@@ -1,7 +1,63 @@
-h1 {
-  text-align: center;
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/111/458/original/pexels-marina-leonova-7634896.jpg?1705796015");
+  background-position: center;
+  background-size: 120%;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background-repeat: no-repeat;
 }
 
+h1 {
+  text-align: center;
+  font-size: 38px;
+}
+
+select {
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #779ea5;
+  font-size: 18px;
+}
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  border: 2px solid #779ea5;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  padding: 30px;
+  border-radius: 15px;
+}
+h2 {
+  margin: 0 0 10px;
+  font-size: 30px;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+  border-bottom: 1px dashed gray;
+}
+.date {
+  opacity: 0.8;
+}
+
+.time {
+  font-size: 38px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.city:last-child {
+  border: none;
+}
 footer {
   text-align: center;
 }
