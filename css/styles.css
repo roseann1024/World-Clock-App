@@ -64,6 +64,16 @@ h3 {
 .city:last-child {
   border: none;
 }
+
+.back {
+  align-items: center;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 6px;
+  border: 1px solid #ef385d;
+}
+
 a {
   color: #ef385d;
   font-style: italic;

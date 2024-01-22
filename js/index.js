@@ -1,5 +1,5 @@
 function updateTime() {
-  let denverElement = document.querySelector("#denver");
+  let denverElement = document.querySelector("#current");
   if (denverElement) {
     let denverElementDate = denverElement.querySelector(".date");
     let denverElementTime = denverElement.querySelector(".time");
@@ -79,7 +79,13 @@ function updateCity(event) {
                 <div class="time">${cityTime.format(
                   "h:mm:ss"
                 )} <small>${cityTime.format("A")}</small></div>
-            </div>`;
+            </div>
+            
+            
+             <button class="back"><a href="https://world-clock-rva.netlify.app/">Back to main page👈</a>
+        </button>
+            
+            `;
 }
 
 let citiesSelectElement = document.querySelector("#cities");
